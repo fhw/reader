@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/main.js"></script>
+		<script src="js/jquery-2.2.1.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top">
+			<div class="back">
+				<a href="javascript:history.back()">
+					<!--<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></sapn>	-->
+					<span class="back_button"></span>
+				</a>
+			</div>
+			<div class="top_name">
+				<a id="a1" href="index.html">书城</a>
+			</div>
+			<div class="top_right"><p><a href="index.html" id="a1">我的书架</a></p></div>
+		</header>
+
+		<div class="bookstore_nav">
+			<div class="bookstore_nav_line1">
+				<a href="types.html">分类</a>
+				<a href="ranking.html">排行</a>
+				<a href="">完本</a>
+				<a href="search.html">搜书</a>
+			</div>
+			<div class="bookstore_nav_line2">
+				<a href="">玄幻</a>
+				<a href="">穿越</a>
+				<a href="">都市</a>
+				<a href="">言情</a>
+			</div>
+		</div>
+		<!--<div id="recommend">
+			<p>推荐</p><a href="">更多</a></div>-->
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<a href="book.html"><img src="img/1861500-1463656768000.jpg" alt="First slide"></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="img/1724165-1456889918000.jpg" alt="Second slide"></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="img/1829091-1463365293000.jpg" alt="Third slide"></a>
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<div class="types_selection">
+			<div class="types_selection_title"><p>分类推荐</p></div>
+			<div class="types_selection_list">
+				<ul>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ranking_selection">
+			<div class="ranking_selection_title"><p>榜单推荐</p></div>
+			<div class="ranking_selection_list">
+				<ul>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>
